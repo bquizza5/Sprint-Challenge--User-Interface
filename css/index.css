@@ -208,6 +208,29 @@ nav a {
 .child {
     width: 48%;
     margin: 1%;
+    
+}
+
+.products-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.products-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 31%;
+    margin-top: 25px;
+}
+.products-child img {
+    width: 100%;
+    
+    margin-bottom: 15px;
+    
 }
 
 hr {
@@ -225,7 +248,8 @@ button {
     padding:5px 10px 5px 10px;
     margin-top: 10px;
     border-radius: 10px;
-    border-color: black
+    border-color: black;
+    width: 50%;
 
 }
 .child img {
