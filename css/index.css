@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,115 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* my code begins here */
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+Nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.teal {
+    background:teal;
+}
+.gold {
+    background:gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+.header-img {
+    margin-top:15px;
+    
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.child {
+    width: 48%;
+    margin: 1%;
+    
+}
+
+.products-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.products-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 31%;
+    margin-top: 25px;
+}
+.products-child img {
+    width: 100%;
+    
+    margin-bottom: 15px;
+    
+}
+
+hr {
+    width: 100%;
+    border-top: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+button {
+    background: white;
+    padding:5px 10px 5px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: black;
+    width: 50%;
+
+}
+.child img {
+    margin-bottom: 15px;
 }
